@@ -24,7 +24,7 @@ defmodule BertGateClient.Mixfile do
 
   defp deps(:test) do
     deps(:all) ++ [
-      {:bert_gate, path: "../bertgate"}
+      {:bert_gate, github: "lastcanal/bertgate"}
     ]
   end
 
